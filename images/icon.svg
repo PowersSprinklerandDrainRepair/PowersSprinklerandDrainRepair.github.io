@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape inspired by home plate -->
+  <path d="M200 20 L350 70 L350 130 L200 180 L50 130 L50 70 Z" fill="#39261F" stroke="#E6C85A" stroke-width="3"/>
+  
+  <!-- Company name in gold -->
+  <text x="200" y="70" text-anchor="middle" font-family="Impact, sans-serif" font-size="36" fill="#E6C85A" font-weight="bold">POWERS</text>
+  <text x="200" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#E6C85A">SPRINKLER & DRAINAGE</text>
+  
+  <!-- Water droplet/irrigation element -->
+  <g transform="translate(90, 120)">
+    <path d="M15 0 C20 10, 30 20, 15 30 C0 20, 10 10, 15 0 Z" fill="#E6C85A" stroke="#39261F" stroke-width="2"/>
+    <path d="M15 5 C20 15, 25 20, 15 25 C5 20, 10 15, 15 5 Z" fill="#39261F"/>
+  </g>
+  
+  <!-- Sprinkler arc lines -->
+  <g transform="translate(270, 120)">
+    <path d="M15 15 A25 25 0 0 1 40 15" fill="none" stroke="#E6C85A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 15 A20 20 0 0 1 35 15" fill="none" stroke="#E6C85A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 15 A15 15 0 0 1 30 15" fill="none" stroke="#E6C85A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="15" cy="15" r="5" fill="#E6C85A"/>
+  </g>
+  
+  <!-- Subtle baseball stitching accent -->
+  <g transform="translate(360, 100) rotate(-15)">
+    <path d="M0 0 A5 5 0 0 1 10 0" fill="none" stroke="#E6C85A" stroke-width="2"/>
+    <path d="M10 0 A5 5 0 0 1 20 0" fill="none" stroke="#E6C85A" stroke-width="2"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#E6C85A" font-style="italic">*Quality is our bottom line!*</text>
+</svg>
